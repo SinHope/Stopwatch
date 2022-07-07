@@ -1,0 +1,70 @@
+body {
+  background-color: #D9F8C4;
+}
+
+.title {
+  font-family: 'Meja Block Demo', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  color: #F37878;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+.timer {
+  font-weight: bolder;
+  font-size: 80px;
+  font-family: 'Reisenberg', sans-serif;
+}
+
+
+
+.button {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  outline: 0;
+  margin: auto;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+}
+
+.button:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.button:disabled:active {
+  pointer-events: none;
+}
+
+.button:disabled:hover {
+  box-shadow: none;
+}
