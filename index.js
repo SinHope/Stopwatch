@@ -1,4 +1,4 @@
-console.log("hello");
+alert("Hello Testee! Welcome to my mini StopWatch. Built From Scratch in pure Javascript, without usage of any framework");
 
 
 
