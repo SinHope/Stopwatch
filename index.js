@@ -36,6 +36,7 @@ buttonReset.addEventListener("click", function () {
   seconds = "00";
   appendTens.innerHTML = tens;
   appendSeconds.innerHTML = seconds;
+  alert("StopWatch has been reset");
 });
 
 function startTimer () {
