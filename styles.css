@@ -85,3 +85,11 @@ body {
   font-size: 32px;
   font-weight: bolder;
 }
+
+.version {
+  font-family: 'arial', sans-serif;
+  text-align: center;
+  color: #green;
+  font-size: 8px;
+  font-weight: lighter;
+}
