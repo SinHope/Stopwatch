@@ -68,3 +68,20 @@ body {
 .button:disabled:hover {
   box-shadow: none;
 }
+
+.endcredit {
+  font-family: 'arial', sans-serif;
+  text-align: center;
+  color: #F37878;
+  margin-top: 100px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.name {
+  font-family: 'arial', sans-serif;
+  text-align: center;
+  color: #F37878;
+  font-size: 32px;
+  font-weight: bolder;
+}
